@@ -1,0 +1,58 @@
+/* Minimal IntroPage styles */
+:global(body)[b-pytjy3k57s] {
+ margin:0;
+ font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+ background: #0b1220;
+ color: #fff;
+ min-height:100vh;
+}
+
+.intro-root[b-pytjy3k57s] {
+ max-width:800px;
+ margin:48px auto;
+ padding:16px;
+ text-align: center;
+}
+
+.intro-logo[b-pytjy3k57s] {
+ width:64px;
+ height:64px;
+ margin:0 auto 16px;
+ border-radius:8px;
+ background: #111827;
+}
+
+h1[b-pytjy3k57s] {
+ font-size:28px;
+ margin:8px 0;
+}
+
+p.lead[b-pytjy3k57s] {
+ color: rgba(255,255,255,0.85);
+ margin:8px 0 16px;
+}
+
+.actions[b-pytjy3k57s] {
+ display: flex;
+ gap:8px;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.btn[b-pytjy3k57s] {
+ padding:10px 14px;
+ border-radius:8px;
+ border: none;
+ cursor: pointer;
+}
+
+.btn-primary[b-pytjy3k57s] {
+ background: #06b6d4;
+ color: #fff;
+}
+
+.btn-ghost[b-pytjy3k57s] {
+ background: transparent;
+ color: rgba(255,255,255,0.95);
+ border:1px solid rgba(255,255,255,0.12);
+}

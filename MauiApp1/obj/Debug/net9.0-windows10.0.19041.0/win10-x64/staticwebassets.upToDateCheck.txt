@@ -1,0 +1,9 @@
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\images\about-iic.png
+wwwroot\index.html
+D:\web dev\workshop7\MauiApp1\MauiApp1\wwwroot\css\app.css
+D:\web dev\workshop7\MauiApp1\MauiApp1\wwwroot\css\bootstrap\bootstrap.min.css
+D:\web dev\workshop7\MauiApp1\MauiApp1\wwwroot\css\bootstrap\bootstrap.min.css.map
+D:\web dev\workshop7\MauiApp1\MauiApp1\wwwroot\index.html
