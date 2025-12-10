@@ -1,0 +1,52 @@
+﻿@page "/monkey"
+<h3>Monkeys</h3>
+
+@if (monkeyList.Count == 0)
+{
+    <p>No monkeys found</p>
+}
+else
+{
+    <div class="monkey-container">
+        @foreach (var monkey in monkeyList)
+        {
+            <div class="monkey-card">
+                <img src="@monkey.Image" alt="@monkey.Name" class="monkey-image" />
+                <h4 class="monkey-name">@monkey.Name</h4>
+                <p class="monkey-location">@monkey.Location</p>
+            </div>
+        }
+    </div>
+}
+
+
+@code {
+    public class MonkeyModel
+    {
+        public string Name { get; set; } = string.Empty;
+        public string Location { get; set; } = string.Empty;
+        public string Image { get; set; } = string.Empty;
+    }
+
+    private List<MonkeyModel> monkeyList = new List<MonkeyModel>
+    {
+        new MonkeyModel
+        {
+    Name = "Baboon",
+    Location = "Africa and Asia",
+       Image = "/images/monkey.jpg"
+        },
+        new MonkeyModel
+  {
+  Name = "Capuchin Monkey",
+    Location = "Central and South America",
+     Image = "/images/monkey.jpg"
+        },
+        new MonkeyModel
+    {
+          Name = "Blue Monkey",
+       Location = "Central and East Africa",
+  Image = "/images/monkey.jpg"
+        }
+    };
+}

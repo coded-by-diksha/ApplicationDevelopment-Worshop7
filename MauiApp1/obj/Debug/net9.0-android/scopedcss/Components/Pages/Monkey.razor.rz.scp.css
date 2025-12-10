@@ -1,0 +1,79 @@
+body[b-wsjfpxg8v9] {
+}
+
+/* Playful Monkey component styles - simple & creative */
+.monkey-root[b-wsjfpxg8v9] {
+ max-width:360px;
+ margin:28px auto;
+ padding:18px;
+ text-align:center;
+ font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+ background: linear-gradient(180deg, #fff, #fbfdff);
+ border-radius:12px;
+ box-shadow:08px20px rgba(2,6,23,0.06);
+ color: #0f172a;
+}
+
+.monkey-face[b-wsjfpxg8v9] {
+ width:120px;
+ height:120px;
+ margin:0 auto12px;
+ border-radius:50%;
+ background: radial-gradient(circle at35%30%, #ffe7b30%, #ffd26a45%, #b07a3b100%);
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ font-size:48px;
+ color:#5a3212;
+ box-shadow:06px14px rgba(11,95,176,0.06);
+}
+
+.monkey-name[b-wsjfpxg8v9] {
+ font-size:18px;
+ font-weight:700;
+ margin:6px0;
+}
+
+.monkey-bio[b-wsjfpxg8v9] {
+ font-size:13px;
+ color:#475569;
+ margin:6px12px14px;
+}
+
+.actions[b-wsjfpxg8v9] {
+ display:flex;
+ gap:8px;
+ justify-content:center;
+}
+
+.btn[b-wsjfpxg8v9] {
+ padding:8px12px;
+ border-radius:10px;
+ border:0;
+ cursor:pointer;
+ font-weight:600;
+}
+
+.btn-banana[b-wsjfpxg8v9] {
+ background: linear-gradient(90deg, #ffd166, #ffb84d);
+ color:#5a3212;
+}
+
+.btn-ghost[b-wsjfpxg8v9] {
+ background: transparent;
+ border:1px solid rgba(15,23,42,0.06);
+ color:#0f172a;
+}
+
+.btn:hover[b-wsjfpxg8v9] {
+ transform: translateY(-3px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+ .btn[b-wsjfpxg8v9] { transition:none; }
+}
+
+@media (max-width:420px) {
+ .monkey-root[b-wsjfpxg8v9] { margin:18px; padding:14px; }
+ .monkey-face[b-wsjfpxg8v9] { width:96px; height:96px; font-size:40px; }
+}
