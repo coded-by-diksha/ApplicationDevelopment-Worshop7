@@ -584,3 +584,4 @@ D:\web dev\workshop7\MauiApp1\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win1
 D:\web dev\workshop7\MauiApp1\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\qcuihj8de4-qcfgi1tbml.gz
 D:\web dev\workshop7\MauiApp1\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\oq58hdkxfw-qcfgi1tbml.br
 D:\web dev\workshop7\MauiApp1\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\compressed\publish\qcuihj8de4-qcfgi1tbml.br
+D:\web dev\workshop7\MauiApp1\MauiApp1\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MauiApp1.sourcelink.json

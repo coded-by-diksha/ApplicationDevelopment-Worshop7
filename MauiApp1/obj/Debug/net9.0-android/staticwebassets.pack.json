@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\about-iic.png"
     },
     {
+      "Id": "D:\\web dev\\workshop7\\MauiApp1\\MauiApp1\\wwwroot\\images\\student.jpg",
+      "PackagePath": "staticwebassets\\images\\student.jpg"
+    },
+    {
       "Id": "D:\\web dev\\workshop7\\MauiApp1\\MauiApp1\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

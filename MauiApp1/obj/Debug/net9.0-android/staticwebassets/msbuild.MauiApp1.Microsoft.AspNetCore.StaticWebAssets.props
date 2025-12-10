@@ -80,6 +80,26 @@
       <LastWriteTime>Wed, 10 Dec 2025 06:21:55 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\about-iic.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\student.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>MauiApp1</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>images/student.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>13msaig3nb</Fingerprint>
+      <Integrity>Mw+NuweR+jvbl4HL9EsFzoiXyzO2ULEnf/tO7b9AqLc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <FileLength>4430</FileLength>
+      <LastWriteTime>Wed, 10 Dec 2025 15:25:55 GMT</LastWriteTime>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\student.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))">
       <SourceType>Package</SourceType>
       <SourceId>MauiApp1</SourceId>
@@ -112,12 +132,12 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>qcfgi1tbml</Fingerprint>
-      <Integrity>RsjwCIksxFbdEP6wzCGWDQXaqpLLLtpfmILScZm7QwA=</Integrity>
+      <Fingerprint>qvamubgp0k</Fingerprint>
+      <Integrity>lgo7G61BjKABcFR0+HuvfUAV0I7Yo+NACKBzzUzpmrI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <FileLength>6537</FileLength>
-      <LastWriteTime>Wed, 10 Dec 2025 06:27:41 GMT</LastWriteTime>
+      <FileLength>6612</FileLength>
+      <LastWriteTime>Wed, 10 Dec 2025 15:27:58 GMT</LastWriteTime>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MauiApp1.styles.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>

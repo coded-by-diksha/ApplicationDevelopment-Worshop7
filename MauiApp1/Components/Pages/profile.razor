@@ -1,0 +1,11 @@
+﻿@page "/profile"
+<h3>Profile</h3>
+<h5>The name of student is @studentName who is participated in @courseName in batch @batchYear in IIC</h5>
+<img src="@photopath" alt="IIC Logo" style="max-width: 300px; margin-top: 20px;" />
+
+@code {
+    public string photopath = "/images/student.jpeg";
+    public string studentName = "Samantha";
+    public string courseName = ".NET MAUI Hybrid Training";
+    public int batchYear = 2025;
+}
